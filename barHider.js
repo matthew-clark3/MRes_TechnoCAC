@@ -20,6 +20,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script hide two");
+			outlet(0, "script hide thr");
+			outlet(0, "script hide fou");
+			outlet(0, "script hide fiv");
+			outlet(0, "script hide six");
+			outlet(0, "script hide sev");
+			outlet(0, "script hide eig");
+			outlet(0, "script hide nin");
+			outlet(0, "script hide ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 1) {
 			outlet(0, "script show seq1");
@@ -38,6 +54,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script hide thr");
+			outlet(0, "script hide fou");
+			outlet(0, "script hide fiv");
+			outlet(0, "script hide six");
+			outlet(0, "script hide sev");
+			outlet(0, "script hide eig");
+			outlet(0, "script hide nin");
+			outlet(0, "script hide ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 2) {
 			outlet(0, "script show seq1");
@@ -56,6 +88,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script hide fou");
+			outlet(0, "script hide fiv");
+			outlet(0, "script hide six");
+			outlet(0, "script hide sev");
+			outlet(0, "script hide eig");
+			outlet(0, "script hide nin");
+			outlet(0, "script hide ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 3) {
 			outlet(0, "script show seq1");
@@ -74,6 +122,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script hide fiv");
+			outlet(0, "script hide six");
+			outlet(0, "script hide sev");
+			outlet(0, "script hide eig");
+			outlet(0, "script hide nin");
+			outlet(0, "script hide ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 4) {
 			outlet(0, "script show seq1");
@@ -92,6 +156,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script hide six");
+			outlet(0, "script hide sev");
+			outlet(0, "script hide eig");
+			outlet(0, "script hide nin");
+			outlet(0, "script hide ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 5) {
 			outlet(0, "script show seq1");
@@ -110,6 +190,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script hide sev");
+			outlet(0, "script hide eig");
+			outlet(0, "script hide nin");
+			outlet(0, "script hide ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 6) {
 			outlet(0, "script show seq1");
@@ -128,6 +224,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script hide eig");
+			outlet(0, "script hide nin");
+			outlet(0, "script hide ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 7) {
 			outlet(0, "script show seq1");
@@ -146,6 +258,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script show eig");
+			outlet(0, "script hide nin");
+			outlet(0, "script hide ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 8) {
 			outlet(0, "script show seq1");
@@ -164,6 +292,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script show eig");
+			outlet(0, "script show nin");
+			outlet(0, "script hide ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 9) {
 			outlet(0, "script show seq1");
@@ -182,6 +326,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script show eig");
+			outlet(0, "script show nin");
+			outlet(0, "script show ten");
+			outlet(0, "script hide ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 10) {
 			outlet(0, "script show seq1");
@@ -200,6 +360,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script show eig");
+			outlet(0, "script show nin");
+			outlet(0, "script show ten");
+			outlet(0, "script show ele");
+			outlet(0, "script hide twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 11) {
 			outlet(0, "script show seq1");
@@ -218,6 +394,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script show eig");
+			outlet(0, "script show nin");
+			outlet(0, "script show ten");
+			outlet(0, "script show ele");
+			outlet(0, "script show twe");
+			outlet(0, "script hide thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 12) {
 			outlet(0, "script show seq1");
@@ -236,6 +428,22 @@ function msg_int(barNo) {
 			outlet(0, "script hide seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script show eig");
+			outlet(0, "script show nin");
+			outlet(0, "script show ten");
+			outlet(0, "script show ele");
+			outlet(0, "script show twe");
+			outlet(0, "script show thit");
+			outlet(0, "script hide fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 13) {
 			outlet(0, "script show seq1");
@@ -254,6 +462,22 @@ function msg_int(barNo) {
 			outlet(0, "script show seq14");
 			outlet(0, "script hide seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script show eig");
+			outlet(0, "script show nin");
+			outlet(0, "script show ten");
+			outlet(0, "script show ele");
+			outlet(0, "script show twe");
+			outlet(0, "script show thit");
+			outlet(0, "script show fout");
+			outlet(0, "script hide fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 14) {
 			outlet(0, "script show seq1");
@@ -272,6 +496,22 @@ function msg_int(barNo) {
 			outlet(0, "script show seq14");
 			outlet(0, "script show seq15");
 			outlet(0, "script hide seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script show eig");
+			outlet(0, "script show nin");
+			outlet(0, "script show ten");
+			outlet(0, "script show ele");
+			outlet(0, "script show twe");
+			outlet(0, "script show thit");
+			outlet(0, "script show fout");
+			outlet(0, "script show fift");
+			outlet(0, "script hide sixt");
 		}
 		if (barNo == 15) {
 			outlet(0, "script show seq1");
@@ -289,7 +529,23 @@ function msg_int(barNo) {
 			outlet(0, "script show seq13");
 			outlet(0, "script show seq14");
 			outlet(0, "script show seq15");
-			outlet(0, "script hide seq16");
+			outlet(0, "script show seq16");
+			outlet(0, "script show one");
+			outlet(0, "script show two");
+			outlet(0, "script show thr");
+			outlet(0, "script show fou");
+			outlet(0, "script show fiv");
+			outlet(0, "script show six");
+			outlet(0, "script show sev");
+			outlet(0, "script show eig");
+			outlet(0, "script show nin");
+			outlet(0, "script show ten");
+			outlet(0, "script show ele");
+			outlet(0, "script show twe");
+			outlet(0, "script show thit");
+			outlet(0, "script show fout");
+			outlet(0, "script show fift");
+			outlet(0, "script show sixt");
 		}
 	}
 }

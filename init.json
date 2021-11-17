@@ -9,7 +9,7 @@
 					"pan" : [ 0.0 ],
 					"hypermeter" : [ 0.0 ],
 					"soundType" : [ "Clap" ],
-					"soundFile" : [ "8_clap.wav" ],
+					"soundFile" : [ "9_clap.wav" ],
 					"patcher::live.dial" : [ 0.0 ],
 					"patcher::live.text" : [ 0.0 ],
 					"track1Seq::seq1::toggle1" : [ 0 ],

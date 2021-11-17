@@ -11,7 +11,7 @@ for (var i=0; i<4; i++) {
 
 	windowSize[i] = this.patcher.wind.location[i]
 	
-	post(windowSize[i])
+	//post(windowSize[i])
 	
 }
 
@@ -34,12 +34,20 @@ function loadbang() {
 
 
 function bang () {
+	
+	for (var i=0; i<4; i++) {
 
-	this.patcher.message("zoomfactor", 0.83);
-	hscroll2.message("presentation_rect", 0, windowSize[3] + 45)
-	vscroll2.message("presentation_rect", 2190, 655) //automate this later
-	rhythmButton.message("presentation_rect", 1695, 15)
-	this.patcher.message('script', 'sendbox', 'rhythmUI', 'presentation_rect', 1695, 15, 510, 750)
+	windowSize[i] = this.patcher.wind.location[i]
+	
+	//post(windowSize[i])
+	
+	}
+
+	this.patcher.message("zoomfactor", 0.90);
+	hscroll2.message("presentation_rect", 0, windowSize[3] - 45)
+	vscroll2.message("presentation_rect", 2010, 655) //automate this later
+	rhythmButton.message("presentation_rect", 1530, 15)
+	this.patcher.message('script', 'sendbox', 'rhythmUI', 'presentation_rect', 1530, 15, 510, 750)
 
 	hscrollLoc[0] = hscroll2.rect[0]
 	hscrollLoc[1] = hscroll2.rect[1]

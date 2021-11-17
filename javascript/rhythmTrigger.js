@@ -61,7 +61,7 @@ function nextTrigger (gC) {
 }
 
 function switchBars(gC) {
-	if (gC == 16 || gC == 32 || gC ==  48 || gC ==  64 || gC ==  80 || gC ==  96 || gC ==  112 || gC ==  128 || gC ==  144 || gC ==  160 || gC ==  176 || gC ==  192 || gC ==  208 || gC ==  224 || gC ==  240) {
+	if (gC % 16 == 0) {
 		barCounter++
 		outlet(2, barCounter)
 	}

@@ -33,7 +33,6 @@ function msg_int(i) {
 		outlet(1, i + 5)
 		last4Layer = i + 5
 		curr = last4Layer
-		post(last4Layer)
 	} else if (inlet == 2) { 
 		outlet(1, i + 9)
 		last8Layer = i + 9	

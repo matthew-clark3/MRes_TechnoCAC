@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1360.0, 923.0 ],
+		"rect" : [ 42.0, 85.0, 890.0, 923.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,59 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 544.0, 50.0, 22.0 ],
-					"text" : "3"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 497.0, 29.5, 22.0 ],
+					"patching_rect" : [ 212.790151499999979, 425.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.196078431372549, 1.0, 0.709803921568627, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.790151499999979, 535.0, 83.0, 22.0 ],
+					"patching_rect" : [ 212.790151499999979, 458.0, 83.0, 22.0 ],
 					"text" : "s rhythmArray"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.196078431372549, 1.0, 0.709803921568627, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.5, 435.0, 61.0, 22.0 ],
+					"patching_rect" : [ 144.5, 458.0, 61.0, 22.0 ],
 					"text" : "s LLGDUI"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 195.0, 150.0, 22.0, 22.0 ],
-					"text" : "t b"
 				}
 
 			}
@@ -105,41 +83,19 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 0.0, 30.0, 30.0 ]
+					"patching_rect" : [ 105.0, 0.0, 30.0, 30.0 ],
+					"tricolor" : [ 0.196078431372549, 1.0, 0.709803921568627, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 465.0, 50.0, 22.0 ],
-					"text" : "5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 465.0, 450.0, 36.0, 22.0 ],
-					"text" : "route"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"color" : [ 0.196078431372549, 1.0, 0.709803921568627, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 435.0, 49.0, 22.0 ],
+					"patching_rect" : [ 90.0, 458.0, 49.0, 22.0 ],
 					"text" : "s LLGD"
 				}
 
@@ -163,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 435.0, 67.0, 22.0 ],
+					"patching_rect" : [ 15.0, 458.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -171,6 +127,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.0, 0.752941176470588, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -243,7 +200,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 15.0, 105.0, 116.276595999999998, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 103.0, 116.276595999999998, 30.0 ],
+					"presentation_rect" : [ 15.0, 105.0, 116.276595999999998, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -300,6 +257,7 @@
 					"appearance" : 1,
 					"fontface" : 1,
 					"fontsize" : 14.0,
+					"hidden" : 1,
 					"id" : "obj-13",
 					"maxclass" : "live.tab",
 					"multiline" : 0,
@@ -311,7 +269,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 315.0, 105.0, 480.0, 60.025362000000001 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 135.0, 480.0, 60.025362312793732 ],
+					"presentation_rect" : [ 15.0, 137.0, 480.0, 60.025362000000001 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "9", "10", "11", "12", "13", "14", "15" ],
@@ -334,7 +292,6 @@
 					"appearance" : 2,
 					"fontface" : 1,
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"id" : "obj-11",
 					"ignoreclick" : 1,
 					"maxclass" : "live.text",
@@ -446,14 +403,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 1 ],
-					"order" : 2,
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
@@ -462,7 +411,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -500,13 +449,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 3 ],
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 5 ],
-					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -558,7 +500,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "LLGD.js",
-				"bootpath" : "D:/Google Drive/Education/2 - Masters/2021 - Thesis/CAC System/Exported Prototypes/Cycle 15/javascript",
+				"bootpath" : "D:/Google Drive/Education/2 - Masters/2021 - Thesis/CAC System/Exported Prototypes/Cycle 16/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1

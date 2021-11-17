@@ -210,21 +210,3 @@ function messageObj(dial, i, j) {
 		dialObj.message(dial.InitV)
 
 }
-
-/*function syncObjs(d1, d2, d3, d4, i) {
-
-	var dial1Name = "fx" + i + "par1"
-	var dial2Name = "fx" + i + "par2"
-	var dial3Name = "fx" + i + "par3"
-	var dial4Name = "fx" + i + "par4"
-	var dialObj1 = this.patcher.getnamed(dial1Name)
-	var dialObj2 = this.patcher.getnamed(dial2Name)
-	var dialObj3 = this.patcher.getnamed(dial3Name)  
-	var dialObj4 = this.patcher.getnamed(dial4Name)
-	dialObj1.message(d1.Initv)
-	dialObj2.message(d2.InitV)
-	dialObj3.message(d3.InitV)
-	dialObj4.message(d4.InitV)
-	
-
-}*/

@@ -1,60 +1,56 @@
-inlets = 1
+inlets = 2
 outlets = 1
 
+var lastSelection = 3
 
-function msg_int(i) {
-	switch (i) {
-		case 1:
-			outlet(0, 0)
+function msg_int(v) {
+	if (inlet == 0) {
+		output(v)
+	} else if (inlet == 1) {
+		if (v == 0) {
+			output(lastSelection)
+		} else {
+			output(lastSelection+1)
+		}
+	}
+}
+
+function output(v) {
+	outlet(0, barsToUmenu(v))
+}
+
+function barsToUmenu(b) {
+
+	switch (b) {
+		case 1: 
+			return 0
 		break
 		case 2:
-			outlet(0, 1)
+			return 1
 		break
 		case 3:
-			outlet(0, 5)
+			return 5
 		break
-		case 4:
-			outlet(0, 2)
+		case 4: 
+			return 2
 		break
 		case 5:
-			outlet(0, 6)
+			return 6
 		break
 		case 6:
-			outlet(0, 7)
+			return 7
 		break
 		case 7:
-			outlet(0, 8)
+			return 8
 		break
 		case 8:
-			outlet(0, 3)
-		break
-		case 9:
-			outlet(0, 9)
-		break
-		case 10:
-			outlet(0, 10)
-		break
-		case 11:
-			outlet(0, 11)
-		break
-		case 12:
-			outlet(0, 12)
-		break
-		case 13:
-			outlet(0, 13)
-		break
-		case 14:
-			outlet(0, 14)
-		break
-		case 15:
-			outlet(0, 15)
+			return 3
 		break
 		case 16:
-			outlet(0, 4)
+			return 4
 		break
 		default:
-			outlet(0,0)
+			return b	
 	}
-	
-	
+		
 }

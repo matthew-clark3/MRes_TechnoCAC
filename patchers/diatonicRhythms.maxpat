@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
+		"rect" : [ 42.0, 85.0, 1400.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,67 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-13",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 450.0, 855.0, 30.0, 30.0 ],
+					"tricolor" : [ 0.196078431372549, 1.0, 0.709803921568627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 354.0, 865.0, 90.0, 20.0 ],
+					"text" : "Pulse Number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 210.0, 865.0, 115.0, 20.0 ],
+					"text" : "Cardinality Number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-12",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 321.5, 855.0, 30.0, 30.0 ],
+					"tricolor" : [ 0.196078431372549, 1.0, 0.709803921568627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-6",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 178.0, 855.0, 30.0, 30.0 ],
+					"tricolor" : [ 0.196078431372549, 1.0, 0.709803921568627, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "message",
@@ -267,7 +328,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
-							"parameter_longname" : "N316",
+							"parameter_longname" : "N316[1]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "N316",
@@ -439,7 +500,7 @@
 							"parameter_enum" : [ "1 1 2", "2 1 1", "1 2 1" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E34",
+							"parameter_longname" : "E34[1]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "E(3,4)",
 							"parameter_type" : 2,
@@ -593,7 +654,7 @@
 					"presentation_rect" : [ 260.294392103552809, 46.060857502122758, 31.187811564207095, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "N58",
+							"parameter_longname" : "N58[1]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "N58",
@@ -652,7 +713,7 @@
 					"presentation_rect" : [ 260.294392103552809, 46.060857502122758, 31.187811564207095, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "N38",
+							"parameter_longname" : "N38[1]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "N38",
@@ -694,7 +755,7 @@
 							"parameter_enum" : [ "1 1 1 1 1 1 2", "2 1 1 1 1 1 1", "1 2 1 1 1 1 1", "1 1 2 1 1 1 1", "1 1 1 2 1 1 1", "1 1 1 1 2 1 1", "1 1 1 1 1 1 2" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E78",
+							"parameter_longname" : "E78[1]",
 							"parameter_mmax" : 6,
 							"parameter_shortname" : "E(7,8)",
 							"parameter_type" : 2,
@@ -735,7 +796,7 @@
 							"parameter_enum" : [ "2 1 2 1 2", "2 2 1 2 1", "1 2 2 1 2", "2 1 2 2 1", "1 2 1 2 2" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E58",
+							"parameter_longname" : "E58[1]",
 							"parameter_mmax" : 4,
 							"parameter_shortname" : "E(5,8)",
 							"parameter_type" : 2,
@@ -776,7 +837,7 @@
 							"parameter_enum" : [ "3 3 2", "2 3 3", "3 2 3" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E38",
+							"parameter_longname" : "E38[1]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "E(3,8)",
 							"parameter_type" : 2,
@@ -918,7 +979,7 @@
 					"presentation_rect" : [ 260.294392103552809, 46.060857502122758, 31.187811564207095, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "N1516",
+							"parameter_longname" : "N1516[1]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "N1516",
@@ -1217,7 +1278,7 @@
 					"presentation_rect" : [ 260.294392103552809, 46.060857502122758, 31.187811564207095, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "N516",
+							"parameter_longname" : "N516[1]",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "N516",
@@ -1256,7 +1317,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[6]",
+							"parameter_longname" : "live.text[10]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 2
@@ -1293,7 +1354,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[5]",
+							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 2
@@ -1357,7 +1418,7 @@
 							"parameter_enum" : [ "1 1 1 1 1 1 1 1 1 1 1 1 1 1 2", "2 1 1 1 1 1 1 1 1 1 1 1 1 1 1", "1 2 1 1 1 1 1 1 1 1 1 1 1 1 1", "1 1 2 1 1 1 1 1 1 1 1 1 1 1 1", "1 1 1 2 1 1 1 1 1 1 1 1 1 1 1", "1 1 1 1 2 1 1 1 1 1 1 1 1 1 1", "1 1 1 1 1 2 1 1 1 1 1 1 1 1 1", "1 1 1 1 1 1 2 1 1 1 1 1 1 1 1", "1 1 1 1 1 1 1 2 1 1 1 1 1 1 1", "1 1 1 1 1 1 1 1 2 1 1 1 1 1 1", "1 1 1 1 1 1 1 1 1 2 1 1 1 1 1", "1 1 1 1 1 1 1 1 1 1 2 1 1 1 1", "1 1 1 1 1 1 1 1 1 1 1 2 1 1 1", "1 1 1 1 1 1 1 1 1 1 1 1 2 1 1", "1 1 1 1 1 1 1 1 1 1 1 1 1 2 1" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E1516",
+							"parameter_longname" : "E1516[1]",
 							"parameter_mmax" : 14,
 							"parameter_shortname" : "E(15,16)",
 							"parameter_type" : 2,
@@ -1398,7 +1459,7 @@
 							"parameter_enum" : [ "2 1 1 1 2 1 1 1 2 1 1 1 1", "1 2 1 1 1 2 1 1 1 2 1 1 1", "1 1 2 1 1 1 2 1 1 1 2 1 1", "1 1 1 2 1 1 1 2 1 1 1 2 1", "1 1 1 1 2 1 1 1 2 1 1 1 2", "2 1 1 1 1 2 1 1 1 2 1 1 1", "1 2 1 1 1 1 2 1 1 1 2 1 1", "1 1 2 1 1 1 1 2 1 1 1 2 1", "1 1 1 2 1 1 1 1 2 1 1 1 2", "2 1 1 1 2 1 1 1 1 2 1 1 1", "1 2 1 1 1 2 1 1 1 1 2 1 1", "1 1 2 1 1 1 2 1 1 1 1 2 1", "1 1 1 2 1 1 1 2 1 1 1 1 2" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E1316",
+							"parameter_longname" : "E1316[1]",
 							"parameter_mmax" : 12,
 							"parameter_shortname" : "E(13,16)",
 							"parameter_type" : 2,
@@ -1438,7 +1499,7 @@
 							"parameter_enum" : [ "2 1 2 1 2 1 2 1 2 1 1", "1 2 1 2 1 2 1 2 1 2 1", "1 1 2 1 2 1 2 1 2 1 2", "2 1 1 2 1 2 1 2 1 2 1", "1 2 1 1 2 1 2 1 2 1 2", "2 1 2 1 1 2 1 2 1 2 1", "1 2 1 2 1 1 2 1 2 1 2", "2 1 2 1 2 1 1 2 1 2 1", "1 2 1 2 1 2 1 1 2 1 2", "2 1 2 1 2 1 2 1 1 2 1", "1 2 1 2 1 2 1 2 1 1 2" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E1116",
+							"parameter_longname" : "E1116[1]",
 							"parameter_mmax" : 10,
 							"parameter_shortname" : "E(11,16)",
 							"parameter_type" : 2,
@@ -1479,7 +1540,7 @@
 							"parameter_enum" : [ "2 1 2 1 2 2 2 2 2", "2 2 1 2 1 2 2 2 2", "2 2 2 1 2 1 2 2 2", "2 2 2 2 1 2 1 2 2", "2 2 2 2 2 1 2 1 2", "2 2 2 2 2 2 1 2 1", "1 2 2 2 2 2 2 1 2", "2 1 2 2 2 2 2 2 1", "1 2 1 2 2 2 2 2 2" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E916",
+							"parameter_longname" : "E916[1]",
 							"parameter_mmax" : 8,
 							"parameter_shortname" : "E(9,16)",
 							"parameter_type" : 2,
@@ -1520,7 +1581,7 @@
 							"parameter_enum" : [ "3 2 2 3 2 2 2", "2 3 2 2 3 2 2", "2 2 3 2 2 3 2", "2 2 2 3 2 2 3", "3 2 2 2 3 2 2", "2 3 2 2 2 3 2", "2 2 3 2 2 2 3" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E716",
+							"parameter_longname" : "E716[1]",
 							"parameter_mmax" : 6,
 							"parameter_shortname" : "E(7,16)",
 							"parameter_type" : 2,
@@ -1561,7 +1622,7 @@
 							"parameter_enum" : [ "3 3 3 3 4", "4 3 3 3 3", "3 4 3 3 3", "3 3 4 3 3", "3 3 3 4 3" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E516",
+							"parameter_longname" : "E516[1]",
 							"parameter_mmax" : 4,
 							"parameter_shortname" : "E(5,16)",
 							"parameter_type" : 2,
@@ -1603,7 +1664,7 @@
 							"parameter_enum" : [ "5 5 6", "6 5 5", "5 6 5" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "E316",
+							"parameter_longname" : "E316[1]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "E(3,16)",
 							"parameter_type" : 2,
@@ -1641,7 +1702,7 @@
 							"parameter_enum" : [ "3", "5", "7" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "8pulses",
+							"parameter_longname" : "8pulses[1]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "8pulses",
 							"parameter_type" : 2,
@@ -1674,7 +1735,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "4", "8", "16" ],
-							"parameter_longname" : "cardinality",
+							"parameter_longname" : "cardinality[1]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "cardinality",
 							"parameter_type" : 2,
@@ -1711,7 +1772,7 @@
 							"parameter_enum" : [ "3", "5", "7", "9", "11", "13", "15" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "16pulses",
+							"parameter_longname" : "16pulses[1]",
 							"parameter_mmax" : 6,
 							"parameter_shortname" : "16pulses",
 							"parameter_type" : 2,
@@ -1748,7 +1809,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[4]",
+							"parameter_longname" : "live.text[21]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 2
@@ -1783,7 +1844,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 0.0, 765.0, 990.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "rhythmComposer.js",
+						"filename" : "rhythmComposer",
 						"parameter_enable" : 0
 					}
 ,
@@ -1826,7 +1887,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
+					"order" : 0,
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -1848,6 +1918,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-102", 0 ],
+					"order" : 0,
+					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
 					"source" : [ "obj-103", 0 ]
 				}
 
@@ -1869,6 +1948,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
+					"order" : 0,
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
 					"source" : [ "obj-106", 0 ]
 				}
 
@@ -2001,6 +2089,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-112", 0 ],
+					"order" : 0,
+					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
 					"source" : [ "obj-113", 0 ]
 				}
 
@@ -2030,8 +2127,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
+					"destination" : [ "obj-10", 0 ],
 					"order" : 1,
+					"source" : [ "obj-116", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"order" : 2,
 					"source" : [ "obj-116", 0 ]
 				}
 
@@ -2160,6 +2265,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-26", 1 ]
 				}
 
 			}
@@ -2337,6 +2449,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-51", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 9 ],
 					"order" : 0,
 					"source" : [ "obj-52", 0 ]
@@ -2348,6 +2467,13 @@
 					"destination" : [ "obj-85", 0 ],
 					"order" : 1,
 					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-53", 1 ]
 				}
 
 			}
@@ -2376,7 +2502,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 0,
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
+					"order" : 1,
 					"source" : [ "obj-64", 0 ]
 				}
 
@@ -2404,7 +2539,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 0,
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
+					"order" : 1,
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -2425,7 +2569,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 0,
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
+					"order" : 1,
 					"source" : [ "obj-73", 0 ]
 				}
 
@@ -2446,7 +2599,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 0,
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
+					"order" : 1,
 					"source" : [ "obj-76", 0 ]
 				}
 
@@ -2467,7 +2629,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
+					"order" : 0,
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -2488,7 +2659,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
+					"order" : 0,
 					"source" : [ "obj-82", 0 ]
 				}
 
@@ -2509,7 +2689,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
+					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
+					"order" : 0,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -2531,15 +2720,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -2617,34 +2797,34 @@
  ],
 		"parameters" : 		{
 			"obj-101" : [ "N78", "N78", 0 ],
-			"obj-104" : [ "N58", "N58", 0 ],
-			"obj-107" : [ "N38", "N38", 0 ],
-			"obj-108" : [ "E78", "E(7,8)", 0 ],
-			"obj-109" : [ "E58", "E(5,8)", 0 ],
-			"obj-110" : [ "E38", "E(3,8)", 0 ],
+			"obj-104" : [ "N58[1]", "N58", 0 ],
+			"obj-107" : [ "N38[1]", "N38", 0 ],
+			"obj-108" : [ "E78[1]", "E(7,8)", 0 ],
+			"obj-109" : [ "E58[1]", "E(5,8)", 0 ],
+			"obj-110" : [ "E38[1]", "E(3,8)", 0 ],
 			"obj-114" : [ "N34", "N34", 0 ],
-			"obj-115" : [ "E34", "E(3,4)", 0 ],
-			"obj-17" : [ "live.text[4]", "live.text[1]", 0 ],
-			"obj-26" : [ "16pulses", "16pulses", 0 ],
-			"obj-3" : [ "E316", "E(3,16)", 0 ],
+			"obj-115" : [ "E34[1]", "E(3,4)", 0 ],
+			"obj-17" : [ "live.text[21]", "live.text[1]", 0 ],
+			"obj-26" : [ "16pulses[1]", "16pulses", 0 ],
+			"obj-3" : [ "E316[1]", "E(3,16)", 0 ],
 			"obj-4" : [ "4pulsesBg", "4pulsesBg", 0 ],
-			"obj-44" : [ "E516", "E(5,16)", 0 ],
-			"obj-45" : [ "E716", "E(7,16)", 0 ],
-			"obj-46" : [ "E916", "E(9,16)", 0 ],
-			"obj-47" : [ "E1116", "E(11,16)", 0 ],
-			"obj-50" : [ "E1316", "E(13,16)", 0 ],
-			"obj-51" : [ "cardinality", "cardinality", 0 ],
-			"obj-52" : [ "E1516", "E(15,16)", 0 ],
-			"obj-53" : [ "8pulses", "8pulses", 0 ],
-			"obj-61" : [ "N316", "N316", 0 ],
-			"obj-67" : [ "live.text[5]", "live.text[1]", 0 ],
-			"obj-68" : [ "live.text[6]", "live.text[1]", 0 ],
-			"obj-71" : [ "N516", "N516", 0 ],
+			"obj-44" : [ "E516[1]", "E(5,16)", 0 ],
+			"obj-45" : [ "E716[1]", "E(7,16)", 0 ],
+			"obj-46" : [ "E916[1]", "E(9,16)", 0 ],
+			"obj-47" : [ "E1116[1]", "E(11,16)", 0 ],
+			"obj-50" : [ "E1316[1]", "E(13,16)", 0 ],
+			"obj-51" : [ "cardinality[1]", "cardinality", 0 ],
+			"obj-52" : [ "E1516[1]", "E(15,16)", 0 ],
+			"obj-53" : [ "8pulses[1]", "8pulses", 0 ],
+			"obj-61" : [ "N316[1]", "N316", 0 ],
+			"obj-67" : [ "live.text[12]", "live.text[1]", 0 ],
+			"obj-68" : [ "live.text[10]", "live.text[1]", 0 ],
+			"obj-71" : [ "N516[1]", "N516", 0 ],
 			"obj-74" : [ "N716", "N716", 0 ],
 			"obj-77" : [ "N916", "N916", 0 ],
 			"obj-80" : [ "N1116", "N1116", 0 ],
 			"obj-83" : [ "N1316", "N1316", 0 ],
-			"obj-86" : [ "N1516", "N1516", 0 ],
+			"obj-86" : [ "N1516[1]", "N1516", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2654,8 +2834,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "rhythmComposer.js",
-				"bootpath" : "D:/Google Drive/Education/2 - Masters/2021 - Thesis/CAC System/Exported Prototypes/Cycle 16/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "D:/Google Drive/Education/2 - Masters/2021 - Thesis/CAC System/Exported Prototypes/Cycle 18_1/javascript",
+				"patcherrelativepath" : "../../Cycle 18_1/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

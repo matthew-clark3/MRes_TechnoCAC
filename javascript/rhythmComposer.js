@@ -52,7 +52,7 @@ function msg_int(l) {
 			layer16curSel = 9
 		} else if (l == 4) {
 			array = ["hide", "hide", "hide", "hide", "show", "hide", "hide"]
-			pulses16(array)
+			fnction16Pulses(array)
 			layer16curSel = 11
 		} else if (l == 5) {
 			array = ["hide", "hide", "hide", "hide", "hide", "show", "hide"]

@@ -1,4 +1,4 @@
-inlets = 11
+inlets = 12
 outlets = 4
 
 var parShortName = "_parameter_shortname"
@@ -28,6 +28,8 @@ var evenEDGMultipleSel = 3
 //12: Diatonic EDG multiple
 var diatonicEDGMultipleSel = 2
 
+var lastEDGSent = 0
+
 //displacementArray
 var displacementArray = []
 displacementArray[0] = 0
@@ -56,7 +58,11 @@ function msg_int(i) {
 				} else {
 					outlet(3, barsToUmenu(2))
 				}
-			}
+			} /*else if (edgButton == "on") {
+				post(barsToUmenu(umenuToBars(lastEDGSent) + 1))
+				outlet(3, barsToUmenu(umenuToBars(lastEDGSent) + 1))
+				
+			}*/
 		break
 		
 		case 1: //inlet 1 - rhythm Type
@@ -159,6 +165,9 @@ function msg_int(i) {
 			diatonicEDGMultipleSel = i
 			diatonicEDGDial()
 		break
+		case 11:
+			lastEDGSent = 0
+		break
 		
 		default:
 			break
@@ -256,6 +265,42 @@ function barsToUmenu(b) {
 		break
 		case 16:
 			return 4
+		break
+		default:
+			return b	
+	}
+		
+}
+
+function umenuToBars(b) {
+
+	switch (b) {
+		case 0: 
+			return 1
+		break
+		case 1:
+			return 2
+		break
+		case 5:
+			return 3
+		break
+		case 2: 
+			return 4
+		break
+		case 6:
+			return 5
+		break
+		case 7:
+			return 6
+		break
+		case 8:
+			return 7
+		break
+		case 3:
+			return 8
+		break
+		case 4:
+			return 16
 		break
 		default:
 			return b	

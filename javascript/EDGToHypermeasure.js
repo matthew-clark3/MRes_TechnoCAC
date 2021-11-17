@@ -5,6 +5,7 @@ var lastSelection = 3
 
 function msg_int(v) {
 	if (inlet == 0) {
+		lastSelection = v
 		output(v)
 	} else if (inlet == 1) {
 		if (v == 0) {

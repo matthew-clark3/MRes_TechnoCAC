@@ -1,14 +1,9 @@
 inlets = 14
 outlets = 3
 
-var cardinality = this.patcher.getnamed("cardinality");
 var pulses16  = this.patcher.getnamed("16pulses");
 var pulses8  = this.patcher.getnamed("8pulses");
 var pulses4b  = this.patcher.getnamed("4pulsesBg");
-var pulses4n  = this.patcher.getnamed("4pulsesTxt");
-var E34 = this.patcher.getnamed("E34")
-var E38 = this.patcher.getnamed("E38")
-var E316 = this.patcher.getnamed("E316")
 
 var layer16curSel
 var layer8curSel
@@ -290,36 +285,22 @@ function selCardinality(l, array) {
 	outlet(0, "script " + array[0] + " 16pulses")
 	outlet(0, "script " + array[1] + " 8pulses")
 	outlet(0, "script " + array[2] + " 4pulsesBg")
-	outlet(0, "script " + array[3] + " 4pulsesTxt")
-	outlet(0, "script " + array[4] + " E316")
 	outlet(0, "script " + array[4] + " N316")
-	outlet(0, "script " + array[4] + " E516")
 	outlet(0, "script " + array[4] + " N516")
-	outlet(0, "script " + array[4] + " E716")
 	outlet(0, "script " + array[4] + " N716")
-	outlet(0, "script " + array[4] + " E916")
 	outlet(0, "script " + array[4] + " N916")
-	outlet(0, "script " + array[4] + " E1116")
 	outlet(0, "script " + array[4] + " N1116")
-	outlet(0, "script " + array[4] + " E1316")
 	outlet(0, "script " + array[4] + " N1316")
-	outlet(0, "script " + array[4] + " E1516")
 	outlet(0, "script " + array[4] + " N1516")
-	outlet(0, "script " + array[4] + " E38")
 	outlet(0, "script " + array[4] + " N38")
-	outlet(0, "script " + array[4] + " E58")
 	outlet(0, "script " + array[4] + " N58")
-	outlet(0, "script " + array[4] + " E78")
 	outlet(0, "script " + array[4] + " N78")
-	outlet(0, "script " + array[5] + " E34")
 	outlet(0, "script " + array[6] + " N34")
 	
 	if (l == 1) {
-		outlet(0, "script show E"+layer8curSel+"8")
 		outlet(0, "script show N"+layer8curSel+"8")
 		pulses8.message(mToSelect(layer8curSel))
 	} else if (l == 2) {
-		outlet(0, "script show E"+layer16curSel+"16")
 		outlet(0, "script show N"+layer16curSel+"16")
 		pulses16.message(mToSelect(layer16curSel))	
 	}
@@ -328,28 +309,18 @@ function selCardinality(l, array) {
 
 function fnction16Pulses(a) {
 	
-		outlet(0, "script " + a[0] + " E316")
 		outlet(0, "script " + a[0] + " N316")
-		outlet(0, "script " + a[1] + " E516")
 		outlet(0, "script " + a[1] + " N516")
-		outlet(0, "script " + a[2] + " E716")
 		outlet(0, "script " + a[2] + " N716")
-		outlet(0, "script " + a[3] + " E916")
 		outlet(0, "script " + a[3] + " N916")
-		outlet(0, "script " + a[4] + " E1116")
 		outlet(0, "script " + a[4] + " N1116")
-		outlet(0, "script " + a[5] + " E1316")
 		outlet(0, "script " + a[5] + " N1316")
-		outlet(0, "script " + a[6] + " E1516")
 		outlet(0, "script " + a[6] + " N1516")
 }
 
 function fnction8Pulses(array) {
-		outlet(0, "script " + array[0] + " E38")
 		outlet(0, "script " + array[0] + " N38")
-		outlet(0, "script " + array[1] + " E58")
 		outlet(0, "script " + array[1] + " N58")
-		outlet(0, "script " + array[2] + " E78")
 		outlet(0, "script " + array[2] + " N78")
 	
 	

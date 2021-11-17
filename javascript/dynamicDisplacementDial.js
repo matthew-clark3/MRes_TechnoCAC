@@ -1,5 +1,5 @@
 inlets = 12
-outlets = 4
+outlets = 6
 
 var parShortName = "_parameter_shortname"
 var parRange = "_parameter_range"
@@ -107,8 +107,10 @@ function msg_int(i) {
 				outlet(3, barsToUmenu(1))
 				if (rhythmType == "even") {
 					evenDial()
+					outlet(4, "bang")
 				} else if (rhythmType == "diatonic") {
 					diatonicDial()
+					outlet(5, "bang")
 				}
 			}
 		break
@@ -174,8 +176,12 @@ function msg_int(i) {
 	}
 	if (rhythmType == "LLGD" || evenCardinalitySel == 16) {
 		outlet(2, "script hide displacementDial")
+		outlet(2, "script hide leftArrow")
+		outlet(2, "script hide rightArrow")
 	} else {
 		outlet(2, "script show displacementDial")
+		outlet(2, "script show leftArrow")
+		outlet(2, "script show rightArrow")
 	}
 }
 

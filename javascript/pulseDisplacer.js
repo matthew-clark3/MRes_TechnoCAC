@@ -75,7 +75,7 @@ function off() {
 
 function dynamicUI(i) {
 	//hide beginning
-	
+	post(i)
 	for (var j = 1; j <=i; j++) {
 		
 		var temp1 = "stutter" + j

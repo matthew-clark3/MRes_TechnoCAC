@@ -38,6 +38,6 @@ function msg_int(v) {
 			outlet(1, 15)
 		break
 		default:
-			outlet(1, 3)
+			outlet(1, 1)
 	}
 }

@@ -1,5 +1,5 @@
 inlets = 1
-outlets = 10
+outlets = 4
 
 var start = "start"
 

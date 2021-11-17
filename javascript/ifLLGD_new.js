@@ -17,7 +17,6 @@ function msg_int(v) {
 	
 	for (var i = 1; i <= llgd; i++) {
 		var temp1 = "stutter" + i
-		var temp2 = "button" + i
 		var temp3 = "toggle" + i
 		var temp4 = "stutBut" + i
 		var temp5 = "st" + i
@@ -25,7 +24,6 @@ function msg_int(v) {
 		var temp7 = "v" + i
 		
 		outlet(0, "script show " + temp1)
-		outlet(0, "script show " + temp2)
 		outlet(0, "script show " + temp3)
 		outlet(0, "script show " + temp4)
 		outlet(0, "script show " + temp5)
@@ -39,7 +37,6 @@ function msg_int(v) {
 	
 	for (var j = llgd + 1; j <= 16; j++) {
 		var temp1 = "stutter" + j
-		var temp2 = "button" + j
 		var temp3 = "toggle" + j
 		var temp4 = "stutBut" + j
 		var temp5 = "st" + j
@@ -47,7 +44,6 @@ function msg_int(v) {
 		var temp7 = "v" + j
 		
 		outlet(0, "script hide " + temp1)
-		outlet(0, "script hide " + temp2)
 		outlet(0, "script hide " + temp3)
 		outlet(0, "script hide " + temp4)
 		outlet(0, "script hide " + temp5)
@@ -64,7 +60,6 @@ function bang() {
 	if (lastWasLLGD == true) {
 		for (var i = 1; i < 17; i++) {
 			var temp1 = "stutter" + i
-			var temp2 = "button" + i
 			var temp3 = "toggle" + i
 			var temp4 = "stutBut" + i
 			var temp5 = "st" + i
@@ -72,7 +67,6 @@ function bang() {
 			var temp7 = "v" + i
 		
 			outlet(0, "script show " + temp1)
-			outlet(0, "script show " + temp2)
 			outlet(0, "script show " + temp3)
 			outlet(0, "script show " + temp4)
 			outlet(0, "script show " + temp5)

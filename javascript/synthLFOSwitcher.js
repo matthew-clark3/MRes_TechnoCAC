@@ -1,4 +1,5 @@
 inlets = 14
+outlets = 2
 
 var detune = this.patcher.getnamed("detuneD")
 var blend = this.patcher.getnamed("blendD")
@@ -30,25 +31,30 @@ var resF = 0.53
 var shaper1F = 0.
 var shaper2F = 0.
 
-var lastConnection1
-var lastConnection2
+var	lastConnection1 = [router1, init]
+var	lastConnection2 = [router2, init]
 
 var currentLFO = 0
 
 function loadbang() {
 	
-	connectMe1(router1, init)
-	connectMe2(router2, init)
-	//connectMe(router2, init, lastConnection2)
+	this.patcher.connect(router1, 1, init, 0)
+	this.patcher.connect(router2, 1, init, 0)
+	lastConnection1 = [router1, init]
+	lastConnection2 = [router2, init]
+	outlet(0, "set 0")
 	
 }
 
-function bang() {
+/*function bang() {
 	
-	connectMe1(router1, init)
-	connectMe2(router2, init)
+	this.patcher.connect(router1, 1, init, 0)
+	this.patcher.connect(router2, 1, init, 0)
+	lastConnection1 = [router1, init]
+	lastConnection2 = [router2, init]
+	outlet(0, "set 0")
 	
-}
+}*/
 
 function connectMe1(r, d) {
 	

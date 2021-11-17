@@ -12,8 +12,9 @@ function msg_int(i) {
 }
 
 function list(l) {
-
+	
 	maxDisplacement = arguments[arguments.length - 1]
+	
 		
 }
 

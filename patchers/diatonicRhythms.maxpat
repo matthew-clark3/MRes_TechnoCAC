@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"appearance" : 2,
+					"fontface" : 1,
+					"fontsize" : 14.0,
+					"hidden" : 1,
+					"id" : "obj-4",
+					"ignoreclick" : 1,
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 984.0, 360.0, 72.355931758880615, 60.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 137.5, 66.333978891372681, 59.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "4pulsesBg",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "4pulsesBg",
+							"parameter_type" : 2,
+							"parameter_unitstyle" : 9
+						}
+
+					}
+,
+					"texton" : "3",
+					"varname" : "4pulsesBg"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -188,63 +224,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.058823529411765, 0.058823529411765, 0.058823529411765, 1.0 ],
-					"bordercolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
-					"id" : "obj-137",
-					"ignoreclick" : 0,
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1055.751445770263672, 360.0, 219.248554229736328, 60.578034639358521 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 83.912736168762194, 149.065821228904724, 215.525149771312726, 60.578035 ],
-					"proportion" : 0.5,
-					"rounded" : 0,
-					"varname" : "4pulsesTxt"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"appearance" : 1,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-136",
-					"ignoreclick" : 1,
-					"lcdcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
-					"maxclass" : "live.tab",
-					"multiline" : 0,
-					"num_lines_patching" : 1,
-					"num_lines_presentation" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 990.0, 360.0, 195.0, 60.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 150.0, 202.173994123935699, 60.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "3", "5", "7" ],
-							"parameter_initial" : [ 0.0 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "4pulsesBg",
-							"parameter_mmax" : 2,
-							"parameter_shortname" : "4pulsesBg",
-							"parameter_type" : 2,
-							"parameter_unitstyle" : 9
-						}
-
-					}
-,
-					"varname" : "4pulsesBg"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-124",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -344,6 +323,7 @@
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 14.0,
+					"hidden" : 1,
 					"htricolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
 					"id" : "obj-114",
 					"maxclass" : "number",
@@ -384,6 +364,7 @@
 					"fgdialcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 14.0,
+					"hidden" : 1,
 					"id" : "obj-115",
 					"maxclass" : "live.dial",
 					"needlecolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
@@ -598,7 +579,6 @@
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"htricolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
 					"id" : "obj-107",
 					"maxclass" : "number",
@@ -720,7 +700,6 @@
 					"fgdialcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"id" : "obj-110",
 					"maxclass" : "live.dial",
 					"needlecolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
@@ -1583,7 +1562,6 @@
 					"appearance" : 1,
 					"fontface" : 1,
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"id" : "obj-53",
 					"lcdcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
 					"maxclass" : "live.tab",
@@ -1596,7 +1574,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 750.0, 360.0, 195.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 150.0, 202.23035329580307, 60.0 ],
+					"presentation_rect" : [ 15.0, 137.0, 202.23035329580307, 60.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "3", "5", "7" ],
@@ -1666,7 +1644,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 240.0, 360.0, 465.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 150.0, 476.276595771312714, 60.0 ],
+					"presentation_rect" : [ 15.0, 137.0, 471.276595999999984, 60.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "3", "5", "7", "9", "11", "13", "15" ],
@@ -2109,13 +2087,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-136", 0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
 					"order" : 0,
 					"source" : [ "obj-26", 0 ]
@@ -2538,10 +2509,10 @@
 			"obj-110" : [ "E38", "E(3,8)", 0 ],
 			"obj-114" : [ "N34", "N34", 0 ],
 			"obj-115" : [ "E34", "E(3,4)", 0 ],
-			"obj-136" : [ "4pulsesBg", "4pulsesBg", 0 ],
 			"obj-17" : [ "live.text[4]", "live.text[1]", 0 ],
 			"obj-26" : [ "16pulses", "16pulses", 0 ],
 			"obj-3" : [ "E316", "E(3,16)", 0 ],
+			"obj-4" : [ "4pulsesBg", "4pulsesBg", 0 ],
 			"obj-44" : [ "E516", "E(5,16)", 0 ],
 			"obj-45" : [ "E716", "E(7,16)", 0 ],
 			"obj-46" : [ "E916", "E(9,16)", 0 ],
@@ -2568,8 +2539,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "rhythmComposer.js",
-				"bootpath" : "D:/Google Drive/Education/2 - Masters/2021 - Thesis/CAC System/Exported Prototypes/Cycle 10-12",
-				"patcherrelativepath" : ".",
+				"bootpath" : "D:/Google Drive/Education/2 - Masters/2021 - Thesis/CAC System/Exported Prototypes/Cycle 13/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

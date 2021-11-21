@@ -14,7 +14,7 @@ Because Max runs all audio processes on a single core, the faster your single co
  - **Javascript:** *.js* files used by the system, such as UI elements and rhythm generation.
  - **Outputs:** Recorded outputs used for assessment in *.wav* format. Includes screenshots of each output's setup prior to recording.
  - **Patchers:** The subpatchers which make up the system. Also includes previous iterations of subpatchers.
- - **Samples:** Samples folder. Additional samples can be added to their designated folder (or added to a newly created audio folder). Leave the **Synth** folder as is to preserve synth functionality.
+ - **Samples:** Samples folder (samples used in generating outputs are not available as un-intergrated distribution violates the licensing agreement). Additional samples can be added to their designated folder (or added to a newly created audio folder). Leave the **Synth** folder as is to preserve synth functionality.
 
 ## User Interface
 

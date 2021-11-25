@@ -37,6 +37,7 @@ All details will be available in the corresponding thesis once marked and publis
  - Some issues with the ADSR, Record effects
  - Reverb effect quality is low
  - Multimeasure will display value of *measure + 1* when displacement is used (is part of the displacement code however)
+ - The necklace cycle number box is currently displaying p^0 rhythms as 1 and the rest as i + 1
 
 ## References
 

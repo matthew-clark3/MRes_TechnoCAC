@@ -1,4 +1,4 @@
-# TechnoCAC - A Computer-Aided Compositional System for writing techno music
+# TechnoCAC - A algorithmic musical system for imitating techno music
 
 The system was programmed using Max 8.2.0 with additional external Javascript files that are used by both *js* and *node.script* objects. If Max 8 is installed, simply download the repository and double click **TechnoCAC.maxpat**. It will take a few minutes to load the UI, then additionally set up all the initial configurations. This system is not designed for real-time generation due to multithreading capabilities in Max, thus real-time generation will result in audio drop-outs.
 
